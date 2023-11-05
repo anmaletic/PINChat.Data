@@ -1,0 +1,6 @@
+﻿CREATE TABLE [PINChat].[Groups]
+(
+    [Id] NVARCHAR(128) NOT NULL PRIMARY KEY DEFAULT NEWID() , 
+    [Name] NVARCHAR(50) NOT NULL,
+    [IsArchived] BIT NOT NULL DEFAULT 0
+)

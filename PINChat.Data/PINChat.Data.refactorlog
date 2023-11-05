@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="d73a2899-f305-415e-9f13-d31b7f02d525" ChangeDateTime="10/17/2023 09:29:13">
+    <Property Name="ElementName" Value="[dbo].[DirectMessages].[GroupId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DirectMessages]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserOneId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3edf7e45-e613-482a-8d10-1d893be6f7f3" ChangeDateTime="10/17/2023 09:30:31">
+    <Property Name="ElementName" Value="[dbo].[DirectMessages].[SourceId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DirectMessages]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserTwoId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d3708340-d3db-4481-bf61-6cf4cf88dd02" ChangeDateTime="10/17/2023 09:30:34">
+    <Property Name="ElementName" Value="[dbo].[DirectMessages].[Content]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DirectMessages]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SourceId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3bd18c7e-5c9c-4c6b-834c-b9ea98190ac5" ChangeDateTime="10/17/2023 09:30:36">
+    <Property Name="ElementName" Value="[dbo].[DirectMessages].[Picture]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DirectMessages]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Content" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="26443856-61f2-4b7b-b440-1738281ddcc0" ChangeDateTime="10/17/2023 09:30:41">
+    <Property Name="ElementName" Value="[dbo].[DirectMessages].[CreateDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DirectMessages]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Picture" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c5f5512b-c4c7-4ddb-889d-00d012c55e6c" ChangeDateTime="10/17/2023 09:30:46">
+    <Property Name="ElementName" Value="[dbo].[DirectMessages].[IsArchived]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DirectMessages]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CreatedDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ad4ca16d-6dad-49d3-a3ee-c1f582eb4753" ChangeDateTime="11/04/2023 13:03:57">
+    <Property Name="ElementName" Value="[dbo].[spMessages_GetMessagesById]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[spMessages_GetById]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="87967c4c-aa9b-430f-85ff-f74bc754a21a" ChangeDateTime="11/04/2023 14:25:41">
+    <Property Name="ElementName" Value="[PINChat].[Messages].[Picture]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[PINChat].[Messages]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Image" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fa095343-994c-493e-bae9-9f4b1b196d41" ChangeDateTime="11/04/2023 14:26:05">
+    <Property Name="ElementName" Value="[PINChat].[Messages].[Image]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[PINChat].[Messages]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Picture" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ec0ea29b-5f0e-47b4-85aa-78580c259d50" ChangeDateTime="11/04/2023 14:26:58">
+    <Property Name="ElementName" Value="[PINChat].[Messages].[Picture]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[PINChat].[Messages]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Image" />
+  </Operation>
+</Operations>
