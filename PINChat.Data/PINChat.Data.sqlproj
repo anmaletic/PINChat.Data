@@ -75,13 +75,17 @@
     <Build Include="pinchat\Stored Procedures\spUserContacts_GetById.sql" />
     <Build Include="pinchat\Stored Procedures\spUserGroups_GetById.sql" />
     <Build Include="pinchat\Stored Procedures\spUsers_Insert.sql" />
-    <Build Include="pinchat\Stored Procedures\spMessages_GetById.sql" />
+    <Build Include="pinchat\Stored Procedures\spMessages_GetByUserId.sql" />
     <Build Include="pinchat\Stored Procedures\spMessages_Insert.sql" />
     <Build Include="pinchat\Stored Procedures\spUserContacts_Insert.sql" />
     <Build Include="pinchat\Stored Procedures\spUserContacts_Delete.sql" />
     <Build Include="pinchat\Stored Procedures\spUserGroups_Insert.sql" />
     <Build Include="pinchat\Stored Procedures\spUserGroups_Delete.sql" />
     <Build Include="pinchat\Stored Procedures\spUsers_Update.sql" />
+    <Build Include="pinchat\Stored Procedures\spMessages_GetByGroupId.sql" />
+    <Build Include="pinchat\Tables\Settings.sql" />
+    <Build Include="pinchat\Stored Procedures\spSettings_GetByKey.sql" />
+    <Build Include="pinchat\Stored Procedures\spUserGroups_GetContactsById.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="PINChat.Data.refactorlog" />
