@@ -4,7 +4,7 @@ AS
 begin 
 	set nocount on;
 
-	SELECT Id, DisplayName, FirstName, LastName, LastLoginDate, CreatedDate
+	SELECT Id, DisplayName, FirstName, LastName, Avatar, LastLoginDate, CreatedDate
 	FROM [PINChat].[Users]
 	WHERE Id = @Id
 		AND IsArchived = 0
