@@ -86,11 +86,15 @@
     <Build Include="pinchat\Tables\Settings.sql" />
     <Build Include="pinchat\Stored Procedures\spSettings_GetByKey.sql" />
     <Build Include="pinchat\Stored Procedures\spUserGroups_GetContactsById.sql" />
+    <Build Include="pinchat\Stored Procedures\spGroups_GetById.sql" />
+    <Build Include="pinchat\Stored Procedures\spGroups_Insert.sql" />
+    <Build Include="pinchat\Stored Procedures\spGroups_Update.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="PINChat.Data.refactorlog" />
   </ItemGroup>
   <ItemGroup>
     <None Include="PublishLocations\PINChat.Data.publish.xml" />
+    <None Include="PublishLocations\PINChat.Data.Development.publish.xml" />
   </ItemGroup>
 </Project>
