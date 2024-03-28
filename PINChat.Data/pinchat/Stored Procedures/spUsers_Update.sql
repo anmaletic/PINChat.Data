@@ -3,7 +3,8 @@
 	@DisplayName nvarchar(50),
 	@FirstName nvarchar(50),
 	@LastName nvarchar(50),
-	@Avatar varbinary(max)
+	@Avatar varbinary(max),
+	@AvatarPath nvarchar(255)
 AS
 begin
 	set nocount on;
@@ -13,7 +14,8 @@ begin
 		DisplayName = @DisplayName,
 		FirstName = @FirstName,
 		LastName = @LastName,
-		Avatar = @Avatar
+		Avatar = @Avatar,
+		AvatarPath = @AvatarPath
 	where
 		Id = @Id
 end

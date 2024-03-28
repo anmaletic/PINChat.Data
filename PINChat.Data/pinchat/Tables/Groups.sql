@@ -2,5 +2,7 @@
 (
     [Id] NVARCHAR(128) NOT NULL PRIMARY KEY DEFAULT NEWID() , 
     [Name] NVARCHAR(50) NOT NULL,
+    [Avatar] VARBINARY(MAX)  , 
+    [AvatarPath] NVARCHAR(200) , 
     [IsArchived] BIT NOT NULL DEFAULT 0
 )

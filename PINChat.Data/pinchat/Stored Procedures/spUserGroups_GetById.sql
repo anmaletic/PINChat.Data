@@ -6,7 +6,9 @@ begin
 
 	SELECT 
 		g.Id,
-		g.[Name]
+		g.[Name],
+		g.Avatar,
+		g.AvatarPath
 	FROM [PINChat].[UserGroups] ug
 		INNER JOIN Groups g ON g.Id = ug.GroupId
 	WHERE ug.UserId = @Id

@@ -3,7 +3,7 @@ AS
 begin 
 	set nocount on;
 
-	SELECT Id, DisplayName, FirstName, LastName, Avatar, LastLoginDate, CreatedDate
+	SELECT Id, DisplayName, FirstName, LastName, Avatar, AvatarPath, LastLoginDate, CreatedDate
 	FROM [PINChat].[Users]
 	WHERE 
 		DisplayName is not null

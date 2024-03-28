@@ -9,7 +9,8 @@ begin
 		u.DisplayName, 
 		u.FirstName, 
 		u.LastName,
-		u.Avatar
+		u.Avatar,
+		u.AvatarPath
 	FROM [PINChat].[UserGroups] ug
 		INNER JOIN Users u ON u.Id = ug.UserId
 	WHERE ug.GroupId = @Id

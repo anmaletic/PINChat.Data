@@ -3,7 +3,7 @@ AS
 begin 
 	set nocount on;
 
-	SELECT Id, [Name]
+	SELECT Id, [Name], [Avatar], [AvatarPath]
 	FROM [PINChat].[Groups]
 	WHERE IsArchived = 0
 end
